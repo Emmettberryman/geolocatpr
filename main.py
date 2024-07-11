@@ -14,8 +14,6 @@ def main():
 
         if longitude is not None and latitude is not None:
             print(f"Longitude: {longitude}, Latitude: {latitude}")
-            csv_file = "csvfile.csv"
-            location_found = check_location_in_csv(longitude, latitude, csv_file)
         else:
             print("Longitude and/or Latitude not found in API response.")
 
