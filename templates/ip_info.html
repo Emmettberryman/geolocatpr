@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Address Information</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; }
+        h1 { color: #333; }
+        table { border-collapse: collapse; width: 100%; }
+        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>IP Address Information</h1>
+    <table>
+        <tr><th>IP Address</th><td>{{ ip_address }}</td></tr>
+        <tr><th>Longitude</th><td>{{ longitude }}</td></tr>
+        <tr><th>Latitude</th><td>{{ latitude }}</td></tr>
+        <tr><th>Country</th><td>{{ country }}</td></tr>
+        <tr><th>City</th><td>{{ city }}</td></tr>
+        <tr><th>Zip Code</th><td>{{ zipcode }}</td></tr>
+    </table>
+</body>
+</html>
